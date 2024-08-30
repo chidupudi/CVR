@@ -1,0 +1,86 @@
+.welcome-container {
+    font-family: Arial, sans-serif;
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00793c;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-main {
+    padding: 50px;
+    text-align: left;
+}
+
+.welcome-text h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.welcome-buttons {
+    margin: 20px 0;
+}
+
+.learn-more {
+    background-color: #00793c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contact-us {
+    background-color: white;
+    color: #00793c;
+    padding: 10px 20px;
+    border: 1px solid #00793c;
+    cursor: pointer;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    color: #555;
+}
