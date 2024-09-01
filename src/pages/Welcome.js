@@ -8,6 +8,7 @@ const Welcome = () => {
             <header className="welcome-header">
                 <img src="your-logo-url" alt="Logo" className="logo" />
                 <nav>
+                    
                     <ul className="nav-links">
                         <li><Link to="/services">Services</Link></li>
                         <li><Link to="/solutions">Solutions</Link></li>
