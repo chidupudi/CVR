@@ -23,7 +23,6 @@ const Welcome = () => {
                     <h1>Innovative Services for Your Business</h1>
                     <p>CVR Tech Solutions offers a wide range of services to help your business thrive in the digital age. From IT consulting to digital transformation, we have the expertise to drive your success.</p>
                     <div className="welcome-buttons">
-                        
                         <button className="learn-more">Learn More</button>
                         <button className="contact-us">Contact Us</button>
                     </div>
