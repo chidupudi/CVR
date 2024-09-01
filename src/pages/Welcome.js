@@ -16,6 +16,7 @@ const Welcome = () => {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
+                
             </header>
             <main className="welcome-main">
                 <div className="welcome-text">
